@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.textArea{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 67px;
+}
+
+#sidenav_0{
+  background: #1b1c1d;
+  width: 150px;
+}
+
+#title{
+  margin-top: 5px;
+  padding-right:1%;
+  margin-bottom: 1px;
+}
+
+#toad{
+  height: 16%;
+  position: absolute;
+  bottom: 50%;
+}
+footer.page-footer{
+  background-color: #0f1111;
+  bottom: 0;
+  width: 103%;
+}
+body{
+  background: #0000001f;
+}
+
+
+/* NAVBAR */
+
+#subtitle{
+  text-align: center;
+  color: green;
+}
+
+
+.ui.secondary.inverted.pointing.menu{
+  border: none !important;
+}
+.no-border{
+  border:none;
+}
+
+@media (min-width:600px ) {
+
+}
+
+
+@media (max-width: 659px) {
+  #mobile{
+    display: none;
+  }
+}
+
+#desktop{
+  padding: 1% 1% 1% 1%;
+  border: 0px;
+  display: none;
+}
+
+#burger{
+  color:white;
+}
+@media (min-width:700px ) {
+  #desktop{
+    display:inline-flex;
+  }
+  #burger{
+    display:none;
+    margin-left:0px;
+  }
+}
+
+.drag-target {
+  width: '' !important;
+}
+
+#hidden{
+  color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#nav-bar{
+  margin-bottom: 0px;
+  width: 103%;
+}
+
+#subhead{
+  background: #f1e2a0;
+  width:103%;
+}
+
+#nav-bar{
+  height: 80px;
+  border-radius: 0;
+}
+
+.nowrap{
+  white-space:nowrap;
+}
+
+.subhead{
+    color: green;
+    font-size: 2.5vw;
+}
+
+/* FOOTER */
+#foot{
+  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 5%;
+}
+
+@media (min-width:600px ) {
+  #foot{
+    padding-left:3%;
+  }
+}
+
+@media (min-width:800px ) {
+  #foot{
+    padding-left:2%;
+  }
+}
+
+@media (min-width:1000px ) {
+  #foot{
+    padding-left:1%;
+  }
+}
+
+.toad-font{
+  font-family: 'Merriweather', serif;
+}
+
+.ui.secondary.pointing.menu{
+  margin-bottom: 0px;
+}
+.zero{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.glow{
+  color: #fff;
+  text-shadow: 0 0 20px #66ff66;
+}
+
+.glow:after{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: #66ff66;
+  filter: blur(15px);
+}
+
+.glow:before{
+  content: '';
+  position: absolute;
+  background: #fe3a80;
+  z-index: -2;
+  opacity: .5;
+  filter: blur(40px);
+}
+
+#subhead.border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #be8f3c;
+    margin-bottom: 0;
+}
+
+.footer-copyright{
+  text-align:center;
+}
+
+.fa{
+  padding-left:8%;
+  padding-right:8%;
+}
+
+@media (min-width:600px ) {
+  .fa{
+    padding-left:5%;
+    padding-right:5%;
+  }
+}
+
+
+.icon{
+  color:white !important;
+
+}
+
+.icon:hover{
+  text-shadow: 0 0 20px #66ff66;
+}
+
+
+
+.ui.secondary.inverted.pointing.menu .active.item{
+  border-color: green;
+}
+
+/* IMAGE CAROUSEL */
+
+#slider{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-style: outset;
+  border-color: silver;
+}
+
+.slides{
+  height:400px !important;
+}
+
+@media (min-width:1024px ) {
+  .slides{
+    height: 600px !important;
+  }
+}
+
+.indicators{
+  position:absolute !important;
+  overflow: hidden;
+  z-index: 500;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: #057c08 !important;
+}
+
+#burger{
+    margin-left: 60px;
+    margin-top: 5%;
+}
+
+@media (min-width:350px ) {
+  #burger{
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 375px) {
+  #burger{
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  #burger{
+    margin-left: 130px;
+  }
+}
+@media (min-width: 420px) {
+  #burger{
+    margin-left: 150px;
+  }
+}
+@media (min-width: 450px) {
+  #burger{
+    margin-left: 170px;
+  }
+}
+@media (min-width: 475px) {
+  #burger{
+    margin-left: 190px;
+  }
+}
+@media (min-width: 500px) {
+  #burger{
+    margin-left: 210px;
+  }
+}
+@media (min-width: 525px) {
+  #burger{
+    margin-left: 260px;
+  }
+}
+@media (min-width: 550px) {
+  #burger{
+    margin-left: 280px;
+  }
+}
+@media (min-width: 575px) {
+  #burger{
+    margin-left: 290px;
+  }
+}
+@media (min-width: 600px) {
+  #burger{
+    margin-left: 330px;
+  }
+}
+@media (min-width: 625px) {
+  #burger{
+    margin-left: 350px;
+  }
+}
+@media (min-width: 650px) {
+  #burger{
+    margin-left: 370px;
+  }
+}
+@media (min-width: 675px) {
+  #burger{
+    margin-left: 390px;
+  }
+}
+
+/*@media only screen and (max-width: 992px) and (min-width: 600px) {
+  .side-nav.fixed {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .large-nav{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .small-nav{
+    display: none;
+  }
+}*/
